@@ -1,0 +1,15 @@
+[submodule "arduino-audio-tools"]
+	path = arduino-audio-tools
+	url = https://github.com/pschatzmann/arduino-audio-tools
+[submodule "arduino-libhelix"]
+	path = arduino-libhelix
+	url = https://github.com/pschatzmann/arduino-libhelix
+[submodule "SdFat"]
+	path = SdFat
+	url = https://github.com/greiman/SdFat
+[submodule "Arduino-SPI"]
+	path = Arduino-SPI
+	url = https://github.com/mikaelpatel/Arduino-SPI
+[submodule "Arduino-GPIO"]
+	path = Arduino-GPIO
+	url = https://github.com/mikaelpatel/Arduino-GPIO.git
