@@ -33,11 +33,9 @@ void loop() {
     } else {
       auto info = out.decoder().audioInfo();
       LOGI("The audio rate from the mp3 file is %d", info.sample_rate);
-      LOGI("The channels from the mp3 file is %d", info.channels);
-      out.end();
-      stop();
+      LOGI("The channels from the mp3 file is %d", info.channels); 
     }
-    delay(3000);
+    //delay(3000);
   }
   else {
     Serial.println("Button is not pressed");
